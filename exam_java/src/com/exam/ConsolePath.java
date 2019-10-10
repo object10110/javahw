@@ -1,11 +1,10 @@
 package com.exam;
 
 import java.io.IOException;
-import java.nio.file.LinkOption;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class ConsolePath {
+class ConsolePath {
     private static Path path;
     public static Path getPath() throws IOException {
         if (path == null) {

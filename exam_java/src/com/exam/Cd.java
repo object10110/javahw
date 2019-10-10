@@ -3,14 +3,13 @@ package com.exam;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
-import java.nio.file.InvalidPathException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 //cd «путь» — перейти в директорию, путь к которой задан первым аргументом
 public class Cd extends Command {
     public void run(String... args) {
         if (args.length > 0) {
-            Path newPath = null;
+            Path newPath;
             try {
                 //если указан полный путь или slash-ы то создаем новый Path
                 if (args[0].contains(":" + File.separator)

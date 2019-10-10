@@ -2,8 +2,7 @@ package com.exam;
 
 import java.io.IOException;
 import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+
 //pwd — вывести полный путь до текущей директории
 public class Pwd extends Command{
     @Override

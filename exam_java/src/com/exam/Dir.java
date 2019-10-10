@@ -2,13 +2,11 @@ package com.exam;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
+
 //dir — выводит список файлов в текущей директории
 public class Dir extends Command {
     @Override
     public void run(String... args) {
-        List<String> results = new ArrayList<String>();
         File[] files = new File[0];
         try {
             files = new File(ConsolePath.getPath().toString()).listFiles();

@@ -15,25 +15,31 @@ public class Download extends Command {
 
     @Override
     public void run(String... args) {
-        int countThreads = 5;
-        File directory = new File(String.valueOf(DIRECTORY_NAME));
+        File directory = new File(DIRECTORY_NAME);
+        boolean rootDirectoryIsCreated;
         if (!directory.exists()) {
-            directory.mkdir();
+            rootDirectoryIsCreated = directory.mkdir();
+        } else {
+            rootDirectoryIsCreated = true;
         }
-        try {
-            this.args = args;
-            //если вторым параметром передано имя то устанавливаем его скачаному файлу, иначе берем с ссылки
-            Path pathToFile = download(args[0], args.length > 1 ? args[1] : null);
-            if (pathToFile != null) {
-                File file = pathToFile.toFile();
-                long fileSizeInBytes = file.length();
-                long fileSizeInKB = fileSizeInBytes / 1024;
-                System.out.println("Файл сохранен по пути: "
-                        + pathToFile.toAbsolutePath().normalize().toString()
-                        + "(" + fileSizeInKB + " KB)\n");
+        if(rootDirectoryIsCreated) {
+            try {
+                this.args = args;
+                //если вторым параметром передано имя то устанавливаем его скачаному файлу, иначе берем с ссылки
+                Path pathToFile = download(args[0], args.length > 1 ? args[1] : null);
+                if (pathToFile != null) {
+                    File file = pathToFile.toFile();
+                    long fileSizeInBytes = file.length();
+                    long fileSizeInKB = fileSizeInBytes / 1024;
+                    System.out.println("Файл сохранен по пути: "
+                            + pathToFile.toAbsolutePath().normalize().toString()
+                            + "(" + fileSizeInKB + " KB)\n");
+                }
+            } catch (IOException e) {
+                System.out.println("Ошибка загрузки...\nПроверьте правильность URL(" + args[0] + ")");
             }
-        } catch (IOException e) {
-            System.out.println("Ошибка загрузки...\nПроверьте правильность URL(" + args[0] + ")");
+        }else {
+            System.out.println("Нет прав на создание директории...");
         }
         setReady(true);
     }
@@ -46,7 +52,7 @@ public class Download extends Command {
     private Path download(String sourceURL, String fileName) throws IOException {
         URL url = new URL(sourceURL);
         if (fileName == null) {
-            fileName = sourceURL.substring(sourceURL.lastIndexOf('/') + 1, sourceURL.length());
+            fileName = sourceURL.substring(sourceURL.lastIndexOf('/') + 1);
         }
         if (fileName.length() > 0
                 && !fileName.contains(".")) {

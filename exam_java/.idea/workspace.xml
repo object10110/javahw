@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="364c9cc1-8fbe-43ea-98db-8f49185695d5" name="Default Changelist" comment="" />
+    <list default="true" id="364c9cc1-8fbe-43ea-98db-8f49185695d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/0_8eb56_842bba74_XL-640x400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/assa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exam/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exam/Cd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/Cd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exam/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exam/ConsolePath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/ConsolePath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exam/Dir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/Dir.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exam/Download.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/Download.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exam/Find.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/Find.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exam/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exam/Pwd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exam/Pwd.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,11 +33,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1RjXtx59i2ejHvg05mUL9TQODU6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -68,10 +88,25 @@
       <workItem from="1570181727896" duration="753000" />
       <workItem from="1570202308131" duration="19941000" />
       <workItem from="1570259759352" duration="4160000" />
+      <workItem from="1570344073000" duration="1542000" />
+      <workItem from="1570685820549" duration="3401000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

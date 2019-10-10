@@ -20,13 +20,14 @@ public class Find extends Command {
             for (File f : File.listRoots()) {
                 try {
                     String finalName = name;
-                    Files.walkFileTree(f.toPath(), new FileVisitor<Path>() {
+                    Files.walkFileTree(f.toPath(), new FileVisitor<>() {
                         @Override
-                        public FileVisitResult preVisitDirectory(Path dir, BasicFileAttributes attrs) throws IOException {
+                        public FileVisitResult preVisitDirectory(Path dir, BasicFileAttributes attrs) {
                             return FileVisitResult.CONTINUE;
                         }
+
                         @Override
-                        public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
+                        public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) {
                             try {
                                 if (file.getFileName().toString().matches(finalName.toLowerCase())) {
                                     System.out.println("Найдено: " + file.toAbsolutePath());
@@ -36,12 +37,14 @@ public class Find extends Command {
                                 return FileVisitResult.CONTINUE;
                             }
                         }
+
                         @Override
-                        public FileVisitResult visitFileFailed(Path file, IOException exc) throws IOException {
+                        public FileVisitResult visitFileFailed(Path file, IOException exc) {
                             return FileVisitResult.CONTINUE;
                         }
+
                         @Override
-                        public FileVisitResult postVisitDirectory(Path dir, IOException exc) throws IOException {
+                        public FileVisitResult postVisitDirectory(Path dir, IOException exc) {
                             return FileVisitResult.CONTINUE;
                         }
                     });

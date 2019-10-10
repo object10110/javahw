@@ -1,6 +1,6 @@
 package com.exam;
 
-public abstract class Command {
+abstract class Command {
     private boolean isReady = false;
     public boolean isReady() {
         return isReady;

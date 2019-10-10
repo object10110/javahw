@@ -1,23 +1,16 @@
 package com.exam;
 
 import java.io.*;
-import java.net.URL;
-import java.nio.file.*;
-import java.nio.file.attribute.BasicFileAttributes;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 
 //https://github.com/javalesson2019/exam_java/blob/master/README.md
-//settings.properties
-//cs=org.itstep.changeDIr
-//dir=org.itstep.showDir
 
-public class Main {
+class Main {
     private static final String SETTINGS_PATH = "settings.properties";
 
     public static void main(String[] args) {
@@ -25,19 +18,19 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         ArrayList<Command> backgroundCommands = new ArrayList<>();
         //записываем консольную комманду
-        String consoleCommand = null;
+        String consoleCommand;
         System.out.println("Используйте комманду help, для получения подробной информации.");
         do {
             try {
                 System.out.print(ConsolePath.getPath() + ">");
-            } catch (IOException e) {}
+            } catch (IOException ignored) {}
             consoleCommand = scanner.nextLine();
             String[] commands = consoleCommand.split(" ");
             if (consoleCommand.endsWith("&")) {
                 commands[commands.length - 1] = replaceLast(commands[commands.length - 1], "&", "");
             }
             ArrayList<String> argsList = new ArrayList<>(Arrays.asList(commands).subList(1, commands.length));
-            Command selectCommand = null;
+            Command selectCommand;
             selectCommand = getCommandByName(commands[0]);
             if (selectCommand != null) {
                 //отдельная реализация для jobs, так как нужно устанавливать
@@ -54,10 +47,7 @@ public class Main {
                     //если указан параметр & - то запускаем выполнение в отдельном потоке
                     if (consoleCommand.endsWith("&")) {
                         backgroundCommands.add(selectCommand);
-                        Command finalSelectCommand = selectCommand;
-                        service.submit(() -> {
-                            finalSelectCommand.run(argsList.toArray(String[]::new));
-                        });
+                        service.submit(() -> selectCommand.run(argsList.toArray(String[]::new)));
                     } else {
                         selectCommand.run(argsList.toArray(String[]::new));
                     }
@@ -93,14 +83,13 @@ public class Main {
                         .startsWith(commandName)) {
                     String pathToCommandClass = line.substring(line.indexOf("=") + 1);
                     try {
-                        Command command = (Command) Class.forName(pathToCommandClass).getDeclaredConstructor().newInstance();
-                        return command;
+                        return (Command) Class.forName(pathToCommandClass).getDeclaredConstructor().newInstance();
                     } catch (Exception ex) {
                         return null;
                     }
                 }
             } while (line != null);
-        } catch (Exception ex) {
+        } catch (Exception ignored) {
         }
         return null;
     }
