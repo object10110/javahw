@@ -1,37 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="364c9cc1-8fbe-43ea-98db-8f49185695d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ebd333b0-ce12-40d5-af06-2d4e3dbe2371" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="ProjectId" id="1RjXtx59i2ejHvg05mUL9TQODU6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1SVJHaaMY0orQsD8JZbKZUOG9l3" />
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/composite_iterator" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -47,8 +37,8 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.exam.Main" />
-      <module name="exam" />
+      <option name="MAIN_CLASS_NAME" value="com.composite_iterator.Main" />
+      <module name="composite_iterator" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -67,36 +57,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="364c9cc1-8fbe-43ea-98db-8f49185695d5" name="Default Changelist" comment="" />
-      <created>1570036914648</created>
+      <changelist id="ebd333b0-ce12-40d5-af06-2d4e3dbe2371" name="Default Changelist" comment="" />
+      <created>1571642742976</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1570036914648</updated>
-      <workItem from="1570036918472" duration="2890000" />
-      <workItem from="1570181727896" duration="753000" />
-      <workItem from="1570202308131" duration="19941000" />
-      <workItem from="1570259759352" duration="4160000" />
-      <workItem from="1570344073000" duration="1542000" />
-      <workItem from="1570685820549" duration="3401000" />
-      <workItem from="1571641735880" duration="1582000" />
-      <workItem from="1571659900057" duration="514000" />
+      <updated>1571642742976</updated>
+      <workItem from="1571642750614" duration="6563000" />
+      <workItem from="1571659997481" duration="363000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
