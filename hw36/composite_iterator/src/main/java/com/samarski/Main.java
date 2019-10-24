@@ -1,4 +1,4 @@
-package com.composite_iterator;
+package com.samarski;
 
 public class Main {
     public static void main(String[] args) {
