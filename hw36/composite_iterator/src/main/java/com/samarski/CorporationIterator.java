@@ -1,4 +1,4 @@
-package com.composite_iterator;
+package com.samarski;
 
 public interface CorporationIterator {
     boolean hasNext();
