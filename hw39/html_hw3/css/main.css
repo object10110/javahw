@@ -286,6 +286,7 @@ textarea {
 .menu{
   width: 250px;
   background: #808080;
+  cursor: pointer;
 }
 .menu-item{
   display: flex;
