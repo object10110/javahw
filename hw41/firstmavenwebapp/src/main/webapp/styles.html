@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Styles</title>
+    <link rel="stylesheet" href="css/input-styles.css">
+</head>
+<body>
+    <h3>Inputs</h3>
+    <div class="inputs">
+        <input type="text" placeholder="Enter some text"/>
+        <input class="valid" type="text" value="Valid text"/>
+        <input class="invalid" type="text" value="Invalid text"/>
+    </div>
+    <h3>Check boxes</h3>
+    <div class="inputs">
+        <input type="checkbox" checked id="checkboxChecked" />
+        <label for="checkboxChecked"></label>
+        <input type="checkbox" id="checkboxUnchecked" />
+        <label for="checkboxUnchecked"></label>
+    </div>
+    <h3>Radio buttons</h3>
+    <div class="inputs">
+        <input type="radio" name="gender" checked id="radioChecked" />
+        <label for="radioChecked"></label>
+        <input type="radio" name="gender" id="radio" />
+        <label for="radio"></label>
+    </div>
+    <h3>Buttons</h3>
+    <div class="inputs">
+        <input type="button" class="active" value="Active"/>
+        <input type="button" class="active" value="Hover"/>
+        <input type="button" class="danger" value="Danger"/>
+        <input type="button" class="danger" value="Hover"/>
+        <input type="button" disabled value="Disabled"/>
+        <input type="button" class="circle plus active" value="+"/>
+        <input type="button" class="circle minus danger" value="-"/>
+    </div>
+    <h3>Text area</h3>
+    <div class="inputs">
+        <textarea cols="30" rows="10" placeholder="Enter some text..."></textarea>
+    </div>
+</body>
+</html>

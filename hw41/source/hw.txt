@@ -1,0 +1,10 @@
+video: https://youtu.be/TMajzkmrMgw
+
+Задание 0: установить на домашний компьютер xampp (https://www.apachefriends.org/ru/download.html)
+
+Задание 1: в pdf файле
+
+Задание 2 (дополнительное)
+
+Создать веб приложение по архетипу apache-maven-webapp, в папку webapp поместить файлы созданные 
+в задании 1, запустить веб приложение используя tomcat из xampp

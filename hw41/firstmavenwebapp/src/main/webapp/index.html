@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Credit card</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+<div class="credit-card">
+    <div class="credit-card-detail">CREDIT CARD DETAIL</div>
+    <div class="credit-card-main">
+        <div class="credit-card-param">
+            <div>
+                <label for="card-number">Card number</label>
+                <input id="card-number" maxlength="12" type="text" placeholder="1234 5678 9012 3456"/>
+            </div>
+            <div>
+                <label for="card-name">Name On Card</label>
+                <input id="card-name" type="text" placeholder="Name Surname"/>
+            </div>
+            <div class="credit-card-param horizontal">
+                <div class="block">
+                    <label for="card-day">Expiry Date</label>
+                    <input id="card-day" maxlength="2" type="text" placeholder="02"/>
+                </div>
+                <input type="text" maxlength="4" placeholder="2017"/>
+                <div class="block">
+                    <label for="cvv">CVV/CVN</label>
+                    <input id="cvv" maxlength="3" type="password" placeholder="***"/>
+                </div>
+            </div>
+        </div>
+        <div class="credit-card-image"></div>
+    </div>
+</div>
+</div>
+
+</body>
+</html>

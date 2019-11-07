@@ -1,0 +1,153 @@
+.container{
+    max-width: 900px;
+    margin: auto;
+    background: #f6f6f6;
+    padding: 15px;
+}
+.credit-card{
+    width: 450px;
+    height: 300px;
+    background: #9ECCCC;
+    border-radius: 15px;
+    padding-top: 30px;
+    margin: 10px;
+}
+.credit-card-detail{
+    color: white;
+    background: #DA6322;
+    padding: 10px 50px;
+    margin-left: -20px;
+    width: 300px;
+}
+.credit-card-main{
+    display:flex;
+}
+.credit-card-param{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 25px;
+    width: 240px;
+}
+.credit-card-param label{
+    font-size: 12px;
+    display: block;
+    margin-bottom: 5px;
+    color: #376d6d;
+}
+.credit-card-param input{
+    border: 0;
+    background-color: #bdecec;
+    border-bottom: 1px solid #376d6d;
+    padding: 8px;
+    color: #376d6d;
+}
+.credit-card-param input::placeholder {
+    color: #9ECCCC;
+}
+
+.credit-card-param > div{
+    margin-bottom: 20px;
+}
+.credit-card-param > div > input{
+    width: 225px;
+}
+.horizontal{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.credit-card-param.horizontal input{
+    width: 50px;
+}
+div.block{
+    margin: 0;
+    display: inline-block;
+}
+.credit-card-image{
+    margin-top: 72px;
+    background-image: url("../img/moon_flag.png");
+    background-size: 230px 230px;
+    width: 300px;
+    height: 190px;
+    border-radius: 15px;
+}
+
+.registration-form{
+    display: flex;
+    box-shadow: 0px 1px 30px 12px #d7d7d7;
+    border-radius: 2px;
+    padding: 10px;
+    flex-wrap: wrap;
+    max-width: 900px;
+}
+.block-reg{
+    margin:10px
+}
+.block-reg > .header{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.block-reg.subscribe{
+    width: 100%;
+}
+.margin{
+    margin-left: 10px;
+}
+.block-reg img{
+    height: 30px;
+}
+.sub-block{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.sub-block input:not([type=checkbox]){
+    border: 0;
+    border-bottom: 2px solid lightgrey;
+    padding: 10px;
+    background-color: transparent;
+    margin-left: 10px;
+    width: 100%
+}
+.sub-block input[type=checkbox]{
+    margin: 10px;
+}
+.sub-block select{
+    border: 0;
+    border-bottom: 2px solid lightgrey;
+    padding: 10px;
+    background-color: transparent;
+    margin-left: 10px;
+    width: 100%
+}
+hr {
+    display: block;
+    border-style: inset;
+    border-width: 1px;
+    height: 1px;
+    width: 100%;
+}
+.block-reg.submit{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+input[type=submit]{
+    border: 1px solid #376d6d;
+    background-color: #376d6d;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .sub-block{
+        flex-wrap: wrap;
+    }
+    .block-reg img {
+        margin-left: 10px;
+    }
+}
