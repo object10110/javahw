@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="./css/input-styles.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<div id="root">
+    <form action="registration" method="POST">
+        <span>Login</span>
+        <div class="row">
+            <input id="login" required type="text" name="login" />
+            <label for="login"></label>
+        </div>
+
+        <span>Password</span>
+        <div class="row">
+            <input required id="password" type="password" name="password" />
+            <label for="password"></label>
+        </div>
+
+        <span>Gender</span>
+        <div class="row">
+            <div class="row">
+                <input id="male" type="radio" checked name="gender" value="Male" />
+                <label for="male"><span>Male</span></label>
+            </div>
+
+            <div class="row">
+                <input id="female" type="radio" name="gender" value="Female" />
+                <label for="female"><span>Female</span></label>
+            </div>
+        </div>
+
+        <span>Phone</span>
+        <div class="row">
+            <input type="tel" name="phone" />
+            <label></label>
+        </div>
+
+        <span>Emain</span>
+        <div class="row">
+            <input type="email" name="email" />
+            <label></label>
+        </div>
+
+        <div class="row center">
+            <input id="sub" type="checkbox" name="sub" />
+            <label for="sub"><span>Subscribe</span></label>
+        </div>
+        <input type="submit" />
+    </form>
+</div>
+</body>
+</html>
