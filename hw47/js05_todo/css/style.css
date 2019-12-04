@@ -1,0 +1,58 @@
+.container{
+    width: 800px;
+    margin: auto;
+}
+
+.todo-container{
+    border: 2px solid black;
+    padding: 36px;
+    font-size: 24px;
+}
+.header{
+    font-size: 36px;
+}
+hr{
+    height: 1px;
+    background-color: black;
+}
+
+.new-item-container{
+    display: flex;
+
+}
+
+input{
+    border: 2px solid black;
+    font-size: 18px;
+    padding: 4px;
+}
+input[type=text]{
+    width: 100%;
+}
+.btn-create{
+    width: 80px;
+    margin-left: 10px;
+}
+.table{
+    margin-top: 20px;
+}
+.item{
+    display: flex;
+}
+div.item>div{
+    border-bottom: 2px solid black;
+}
+.check{
+    padding: 0px 4px;
+}
+.description{
+    width: 100%;
+}
+.delete{
+    width: 80px;
+    color: cornflowerblue;
+    cursor: pointer;
+}
+.ready>.description{
+    text-decoration:line-through;
+}
