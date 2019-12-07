@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.addEventListener("load", function () {
+            'use strict';
+            console.log('loaded');
+
+            let top = document.getElementById('top');
+            let bottom = document.getElementById('bottom');
+            let middle = document.getElementById('middle');
+
+            let callback = function (e) {
+                //console.dir(e);
+                //this.style.backgroundColor = "black";
+                e.target.style.backgroundColor = "black";
+
+                console.log('id: ' + this.id);
+                console.log('phase: ' + e.eventPhase);
+
+            };
+
+            top.addEventListener("click", callback, true); // перехват на фазе погружения
+            top.addEventListener("click", callback); // перехват на фазе всплытия
+
+            // top.addEventListener("click", function (e) {
+            //     alert('click');
+            // });
+            //top.removeEventListener()
+            //bottom.addEventListener('click', callback, true);
+            //bottom.addEventListener('click', callback);
+
+            //middle.addEventListener('click', callback, true);
+            //middle.addEventListener('click', callback);
+
+            let input = document.querySelector("input");
+            document.body.addEventListener('contextmenu', (e) => {
+                e.preventDefault();
+            });
+
+            function log(e) {
+                console.log(e.type);
+            }
+
+            input.addEventListener('keydown', log);
+            input.addEventListener('keyup', log);
+            input.addEventListener('keypress', log);
+
+            input.addEventListener('keydown', (e) => {
+                console.dir(e);
+                if (e.key < '0' || e.key > '9') {
+                    e.preventDefault();
+                }
+            });
+
+            input.addEventListener('keyup', (e) => {
+                if (e.key >= '0' && e.key <= '9') {
+                    e.target.value+='-';
+                }
+            });
+
+            document.body.addEventListener('mousemove', e => {
+                bottom.innerText = `(${e.clientX}, ${e.clientY})`;
+            });
+        });
+    </script>
+    <style>
+        body {
+            margin: 0;
+            border: 1px solid red;
+        }
+        #bottom {
+            background: red;
+        }
+
+        #middle {
+            background: yellow;
+        }
+
+        #top {
+            background: green;
+        }
+
+        #bottom {
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            margin: 0 auto;
+        }
+
+        div {
+            text-align: center;
+            color: white;
+            font-family: cursive;
+            display: inline-block;
+            border: 1px solid black;
+            padding: 20px;
+        }
+    </style>
+
+</head>
+<body>
+
+<div id="top">
+    <div id="middle">
+        <div id="bottom"></div>
+    </div>
+</div>
+<br/>
+<div>
+    <input/>
+</div>
+
+</body>
+</html>

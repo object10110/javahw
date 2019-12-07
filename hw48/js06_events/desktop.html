@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            margin: 0;
+            height: 600px;
+            width: 800px;
+            background: url('https://upload.wikimedia.org/wikipedia/ru/1/1d/%D0%91%D0%B5%D0%B7%D0%BC%D1%8F%D1%82%D0%B5%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D1%8C.png');
+            background-repeat: no-repeat;
+        }
+    </style>
+
+    <script>
+        window.addEventListener('load', () => {
+            const trash = {
+                icons: {
+                    'empty': 'https://icon-library.net/images/recyle-bin-icon/recyle-bin-icon-8.jpg',
+                    'full': 'https://vignette.wikia.nocookie.net/winodws/images/4/42/Full_Recycle_Bin.png/revision/latest?cb=20150728133507'
+                },
+                init: function (size = 64) {
+                    let img = document.createElement('img');
+                    img.draggable = false;
+                    img.alt = 'trash image';
+                    img.src = this.icons['empty'];
+
+                    img.id = "trash";
+                    img.style.position = 'absolute';
+                    img.style.width = `${size}px`;
+                    img.style.top = '500px';
+                    img.style.left = '700px';
+
+                    this.img = img;
+                    this.draw();
+                },
+
+                draw: function () {
+                    document.body.appendChild(this.img);
+                }
+            };
+
+            const file = {
+                    icon: 'https://cdn3.iconfinder.com/data/icons/file-formats-15/625/File_Format_DOCX_Word_Microsoft_Office-512.png',
+
+                    init: function (size = 64) {
+                        let img = document.createElement('img');
+                        img.draggable = false;
+                        let isPress = false;
+                        img.alt = 'trash image';
+                        img.src = this.icon;
+
+                        img.style.position = 'absolute';
+                        img.style.width = `${size}px`;
+                        img.style.top = '10px';
+                        img.style.left = '10px';
+
+                        img.addEventListener('mousedown', this.mousedown.bind(this));
+                        img.addEventListener('mouseup', this.mouseup.bind(this));
+                        img.addEventListener('mousemove', this.mousemove.bind(this));
+                        this.img = img;
+                        this.draw();
+                    },
+
+                    mousedown: function (e) {
+                        console.log(this);
+                        this.isPress = true;
+                    },
+                    mouseup: function (e) {
+                        this.isPress = false;
+                        console.dir(e.target);
+                        let element = e.target;
+                        let trashElement = document.querySelector("#trash");
+                        element.offsetBottom = element.offsetTop + element.offsetHeight;
+                        element.offsetRight = element.offsetLeft + element.offsetWidth;
+                        trashElement.offsetBottom = trashElement.offsetTop + trashElement.offsetHeight;
+                        trashElement.offsetRight = trashElement.offsetLeft + trashElement.offsetWidth;
+                        if (!((element.offsetBottom < trashElement.offsetTop) ||
+                            (element.offsetTop > trashElement.offsetBottom) ||
+                            (element.offsetRight < trashElement.offsetLeft) ||
+                            (element.offsetLeft > trashElement.offsetRight))) {
+                            e.target.remove();
+                            trashElement.src = trash.icons['full'];
+                        }
+                    },
+                    mousemove: function (e) {
+                        if (this.isPress === true) {
+                            e.target.style.left = `${e.pageX - e.target.offsetWidth / 2}px`;
+                            e.target.style.top = `${e.pageY - e.target.offsetHeight / 2}px`;
+                        }
+                    },
+
+                    draw: function () {
+                        document.body.appendChild(this.img);
+                    }
+                }
+            ;
+
+            trash.init();
+            file.init();
+
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>
