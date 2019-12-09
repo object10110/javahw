@@ -1,0 +1,16 @@
+video: https://youtu.be/pkYAUsmFyAc
+	https://youtu.be/WNA-WrsFSS8
+
+Презентация: 
+https://github.com/maxchv/itstep/blob/master/databases/presentation/03.IntroSQL.rst
+https://github.com/maxchv/itstep/blob/master/databases/presentation/04.DML.rst
+
+
+Задание: создать базу данных фильмов https://github.com/maxchv/itstep/blob/master/databases/presentation/img/task02.png
+
+Добавить как минимум 3 жанра в таблицу Genres, 5 актеров в табл. Actors, 3 продюсера в табл. Directors и не 
+менее 3-х фильмов в табл. movies.
+
+Обратите внимание, что между табл. Genres и Movies существует связь многие ко многим
+между табл. Movies и Actors - тоже связь многие ко многим, а между табл. Movies и Directors -
+связь многие к одному!
