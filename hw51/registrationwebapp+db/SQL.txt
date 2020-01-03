@@ -1,4 +1,4 @@
-CREATE DATABASE IF NOT EXISTS `Registration_db`;
+CREATE DATABASE IF NOT EXISTS `Registration_db` DEFAULT CHARSET UTF8;;
 
 USE `Registration_db`;
 
