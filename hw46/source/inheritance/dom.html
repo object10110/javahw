@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <!-- comment -->
+    test
+    <p>test <span>Lorem</span> ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto, assumenda beatae dolor dolore excepturi facere inventore itaque, minima nam nihil provident quasi qui tempore, voluptatibus? Ab eaque maiores pariatur.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores consequatur consequuntur doloribus eaque error exercitationem, nostrum placeat quam quibusdam recusandae voluptatem. Accusamus assumenda aut dolorum hic sed sint voluptas?</p>
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+
+    <img width="100" src="" alt=""/>
+</div>
+
+<script>
+    function printDiv() {
+        let div = document.querySelector("div");
+        for(let node of div.childNodes) {
+            console.log(node.nodeName);
+        }
+    }
+    //printDiv();
+
+    function printNextSibling(start) {
+        do {
+            console.log(start);
+            start = start.nextElementSibling;
+        }while(start.nextElementSibling);
+        console.log(start);
+    }
+
+    let p = document.querySelector("p");
+    //p.setAttribute("style", "background: red");
+    p.style.background = "red";
+    p.style.color = "white";
+
+    let img = document.querySelector("img");
+    img.src = "https://www.cats.org.uk/media/2197/financial-assistance.jpg?width=1600";
+
+
+    //printNextSibling(document.querySelector('p'));
+    // let firstParagraph = document.querySelector("p");
+
+    // console.log(firstParagraph.nodeName);
+    // console.log(firstParagraph.nodeType);
+    // console.log(firstParagraph.innerHTML);
+    // console.dir(firstParagraph);
+
+    // setTimeout(() => {
+    //     firstParagraph.innerHTML = "Новое значение";
+    // }, 1000)
+</script>
+
+</body>
+</html>

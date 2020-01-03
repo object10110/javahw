@@ -1,0 +1,57 @@
+CREATE DATABASE IF NOT EXISTS Movies DEFAULT CHARSET UTF8;
+
+USE Movies;
+
+create table if not exists `Genre`
+(
+`id` int auto_increment primary key,
+`name` text not null check(length(`name`)>0)
+);
+
+create table if not exists `Actor`
+(
+`id` int auto_increment primary key,
+`firstName` varchar(30) not null check(length(`firstName`)>0),
+`lastName` varchar(30) not null check(length(`lastName`)>0),
+`nationality` varchar(50) not null check(length(`lastName`)>0),
+`birth` date not null
+);
+
+create table if not exists `Director`
+(
+`id` int auto_increment primary key,
+`firstName` varchar(30) not null check(length(`firstName`)>0),
+`lastName` varchar(30) not null check(length(`lastName`)>0),
+`nationality` varchar(50) not null check(length(`lastName`)>0),
+`birth` date not null
+);
+
+create table if not exists `Movie`
+(
+`id` int auto_increment primary key,
+`directorId` int not null,
+`title` varchar(50) not null check(length(`title`)>0),
+`releaseYear` date not null,
+`rating` float not null,
+`plot` text not null,
+`movieLength` time not null,
+ FOREIGN KEY (`directorId`)  REFERENCES `Director` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+create table if not exists `MovieGenre`
+(
+`movieId` int not null,
+`genreId` int not null,
+ PRIMARY KEY (`movieId`, `genreId`),
+ FOREIGN KEY (`movieId`)  REFERENCES `Movie` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+ FOREIGN KEY (`genreId`)  REFERENCES `Genre` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+create table if not exists `MovieActor`
+(
+`movieId` int not null,
+`actorId` int not null,
+ PRIMARY KEY (`movieId`, `actorId`),
+ FOREIGN KEY (`movieId`)  REFERENCES `Movie` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+ FOREIGN KEY (`actorId`)  REFERENCES `Actor` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+);

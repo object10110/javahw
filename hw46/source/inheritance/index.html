@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+
+    function Animal(kind) {
+        this.kind = kind;
+        console.log("Create new Animal");
+    }
+
+    Animal.prototype.show = function() {
+        console.log("This is Animal`s show ");
+    };
+
+    function Cat(name) {
+        // super()
+        Animal.call(this, 'Cat');
+        this.name = name;
+        console.log("Create new Cat");
+    }
+
+    //Cat extends Animal
+    Cat.prototype = Object.create(Animal.prototype);
+    Cat.prototype.constructor = Cat;
+
+    let vaska = new Cat("Васька");
+    console.dir(vaska);
+    vaska.show();
+
+
+    const car = {
+        model: "VAZ 2010",
+        color: "Баклажан",
+        speed: 210,
+        toString: function() {
+            return `${this.model} ${this.color} ${this.speed} км/ч`;
+        }
+    };
+    console.log(car.toString());
+
+
+    class Shape {
+        PI = Math.PI;
+
+        constructor(name) {
+            this.name = name;
+        }
+
+        toString() {
+            return `Shape ${this.name}`;
+        }
+    }
+
+    class Circle extends Shape {
+        constructor(radius) {
+            super("Circle");
+            this.radius = radius;
+        }
+
+        area() {
+            return this.PI * this.radius ** 2;
+        }
+
+        get perimeter() {
+            return 2 * this.PI * this.radius;
+        }
+
+        set perimeter(p) {
+            this.radius = p / 2 / this.PI;
+        }
+    }
+
+    let c = new Circle(2);
+    console.log(c);
+
+    console.log(c.perimeter);
+    c.perimeter = 10;
+    console.log(c.radius);
+
+</script>
+
+</body>
+</html>

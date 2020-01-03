@@ -232,15 +232,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -264,6 +255,7 @@
       <workItem from="1576059390774" duration="66000" />
       <workItem from="1576059475135" duration="7743000" />
       <workItem from="1576664630220" duration="4567000" />
+      <workItem from="1578052896016" duration="86000" />
     </task>
     <servers />
   </component>
@@ -396,10 +388,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576063728691" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1576664630972">
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1578052896381">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576664630972" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578052896381" />
+    <state x="342" y="215" key="new project wizard" timestamp="1578052973173">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="215" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1578052973173" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

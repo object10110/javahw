@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script async src="js/script.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="gallery-slider">
+        <div class="images-container">
+            <div class="slide-holder">
+                <div class="gallery-img"><img alt="nature" src="images/1.jpg"></div>
+                <div class="gallery-img"><img alt="nature" src="images/2.jpg"></div>
+                <div class="gallery-img"><img alt="nature" src="images/3.jpg"></div>
+                <div class="gallery-img"><img alt="nature" src="images/4.jpg"></div>
+                <div class="gallery-img"><img alt="nature" src="images/5.jpg"></div>
+            </div>
+        </div>
+        <div class="control-panel">
+            <button class="slider-prev button"></button>
+            <div>
+                <input type="checkbox" id="slider-auto-play">
+                <label id="slider-auto-play-label" class="button" for="slider-auto-play"></label>
+                <label>
+                    <input class="slider-interval" type="number" min="500"  placeholder="interval (ms)">
+                </label>
+            </div>
+            <button class="slider-next button"></button>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
