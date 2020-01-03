@@ -1,0 +1,19 @@
+create schema people default charset utf8 collate utf8_general_ci;
+
+create table people.person
+(
+    id int auto_increment
+        primary key,
+    first_name varchar(50) not null,
+    last_name varchar(50) not null,
+    gender set('male', 'female', 'unknown') default 'unknown' not null
+);
+
+create index person_first_name_idx
+    on people.person (first_name);
+
+ALTER TABLE people.person DROP INDEX person_first_name_idx;
+
+select count(*) from people.person;
+
+select * from people.person where first_name LIKE ("%sja%") AND last_name LIKE ("%ith%")
