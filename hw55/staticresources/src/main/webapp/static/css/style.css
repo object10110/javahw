@@ -1,0 +1,28 @@
+* {
+    background: black;
+    color: white;
+    font-family: cursive;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+}
+.panel-login{
+    display:flex;
+    justify-content: center;
+}
+.panel-login>form{
+    width: 300px;
+}
+.submit-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.panel-login>form>div{
+    margin: 4px;
+}

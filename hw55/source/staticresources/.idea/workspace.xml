@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="staticresources:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4b57dd09-9fb4-4c3f-bbd8-4d192bee5a68" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../module02/demo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module02/demo/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module04/demo/car.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module04/demo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module04/inheritance/dom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module04/inheritance/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dom_manip/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dom_manip/practice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../events/desktop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../events/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../indexesdemo/src/main/java/org/itstep/InitDatabaseServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../indexesdemo/src/main/java/org/itstep/UpdateServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../indexesdemo/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbcdemo/src/main/java/org/itstep/App.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="shop: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="548">
+              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+              <folding>
+                <element signature="e#564#569#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/itstep/HomeServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/schema.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/itstep/dao/GenericDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/itstep/domain/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+              <folding>
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#498#499#0" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#586#587#0" expanded="true" />
+                <element signature="e#628#629#0" expanded="true" />
+                <element signature="e#662#663#0" expanded="true" />
+                <element signature="e#697#698#0" expanded="true" />
+                <element signature="e#728#729#0" expanded="true" />
+                <element signature="e#776#777#0" expanded="true" />
+                <element signature="e#816#817#0" expanded="true" />
+                <element signature="e#1220#1221#0" expanded="true" />
+                <element signature="e#1276#1277#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/itstep/dao/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1162#1163#0" expanded="true" />
+                <element signature="e#1235#1236#0" expanded="true" />
+                <element signature="e#1240#1241#0" expanded="true" />
+                <element signature="e#1283#1284#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Isolation</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/style.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/org/itstep/CssServlet.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/css/style.css" />
+        <option value="$PROJECT_DIR$/src/main/java/org/itstep/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/itstep/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/org/itstep/HomeServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/itstep/dao/GenericDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/schema.sql" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="806" />
+    <option name="width" value="1114" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Course" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="staticresources" type="b2602c69:ProjectViewProjectNode" />
+              <item name="staticresources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="staticresources" type="b2602c69:ProjectViewProjectNode" />
+              <item name="staticresources" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="staticresources" type="b2602c69:ProjectViewProjectNode" />
+              <item name="staticresources" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="staticresources" type="b2602c69:ProjectViewProjectNode" />
+              <item name="staticresources" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="staticresources" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../.." />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\shaptala\Desktop\javalessons\04.js\module05\staticresources\src\main\webapp\static\css" />
+      <recent name="C:\Users\shaptala\Desktop\javalessons\04.js\module05\staticresources\src\main\webapp\static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 7.0.56" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.56" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/demo/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="staticresources:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/demo" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_staticresources" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49283" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="staticresources:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b57dd09-9fb4-4c3f-bbd8-4d192bee5a68" name="Default Changelist" comment="" />
+      <created>1577119820861</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577119820861</updated>
+      <workItem from="1577119823122" duration="6810000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6810000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12953092" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Console" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="SQL Generator" visible="true" weight="0.31310943" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47995666" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34669557" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" visible="true" weight="0.1913646" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/itstep/HomeServlet.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/itstep/CssServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/sql/DatabaseMetaData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="1167" column="55" selection-start-line="1167" selection-start-column="50" selection-end-line="1167" selection-end-column="55" />
+          <folding>
+            <element signature="docComment;class#DatabaseMetaData#0" />
+            <element signature="e#2786#2858#0" />
+            <element signature="e#2936#3216#0" />
+            <element signature="e#3282#3595#0" />
+            <element signature="e#3659#3882#0" />
+            <element signature="e#3929#4108#0" />
+            <element signature="e#4160#4373#0" />
+            <element signature="e#4425#5044#0" />
+            <element signature="e#5104#5734#0" />
+            <element signature="e#5793#6052#0" />
+            <element signature="e#6115#6372#0" />
+            <element signature="e#6433#6605#0" />
+            <element signature="e#6668#6852#0" />
+            <element signature="e#6918#7080#0" />
+            <element signature="e#7134#7334#0" />
+            <element signature="e#7391#7508#0" />
+            <element signature="e#7547#7671#0" />
+            <element signature="e#7710#7932#0" />
+            <element signature="e#7988#8266#0" />
+            <element signature="e#8329#8631#0" />
+            <element signature="e#8701#8993#0" />
+            <element signature="e#9061#9353#0" />
+            <element signature="e#9421#9713#0" />
+            <element signature="e#9781#10081#0" />
+            <element signature="e#10157#10447#0" />
+            <element signature="e#10521#10811#0" />
+            <element signature="e#10885#11175#0" />
+            <element signature="e#11249#11543#0" />
+            <element signature="e#11608#11917#0" />
+            <element signature="e#11972#12317#0" />
+            <element signature="e#12377#12729#0" />
+            <element signature="e#12788#13138#0" />
+            <element signature="e#13197#13466#0" />
+            <element signature="e#13527#14081#0" />
+            <element signature="e#14143#14417#0" />
+            <element signature="e#14480#14550#0" />
+            <element signature="e#14614#14863#0" />
+            <element signature="e#14936#15186#0" />
+            <element signature="e#15260#15634#0" />
+            <element signature="e#15698#16011#0" />
+            <element signature="e#16074#16475#0" />
+            <element signature="e#16532#17230#0" />
+            <element signature="e#17311#17536#0" />
+            <element signature="e#17607#17905#0" />
+            <element signature="e#17985#18236#0" />
+            <element signature="e#18306#18620#0" />
+            <element signature="e#18686#18936#0" />
+            <element signature="e#18993#19306#0" />
+            <element signature="e#19372#19811#0" />
+            <element signature="e#19880#20133#0" />
+            <element signature="e#20199#20516#0" />
+            <element signature="e#20584#20859#0" />
+            <element signature="e#20929#21163#0" />
+            <element signature="e#21231#21461#0" />
+            <element signature="e#21528#21755#0" />
+            <element signature="e#21819#22050#0" />
+            <element signature="e#22118#22361#0" />
+            <element signature="e#22430#22677#0" />
+            <element signature="e#22748#22987#0" />
+            <element signature="e#23050#23297#0" />
+            <element signature="e#23375#23600#0" />
+            <element signature="e#23660#23885#0" />
+            <element signature="e#23949#24307#0" />
+            <element signature="e#24374#24569#0" />
+            <element signature="e#24623#24824#0" />
+            <element signature="e#24881#25078#0" />
+            <element signature="e#25133#25508#0" />
+            <element signature="e#25566#25808#0" />
+            <element signature="e#25868#26105#0" />
+            <element signature="e#26180#26414#0" />
+            <element signature="e#26487#26723#0" />
+            <element signature="e#26798#27035#0" />
+            <element signature="e#27110#27350#0" />
+            <element signature="e#27429#27667#0" />
+            <element signature="e#27743#27978#0" />
+            <element signature="e#28052#28289#0" />
+            <element signature="e#28365#28603#0" />
+            <element signature="e#28679#28920#0" />
+            <element signature="e#29001#29251#0" />
+            <element signature="e#29317#29567#0" />
+            <element signature="e#29633#29883#0" />
+            <element signature="e#29948#30223#0" />
+            <element signature="e#30289#30534#0" />
+            <element signature="e#30607#30861#0" />
+            <element signature="e#30929#31179#0" />
+            <element signature="e#31244#31489#0" />
+            <element signature="e#31562#31785#0" />
+            <element signature="e#31855#32079#0" />
+            <element signature="e#32134#32362#0" />
+            <element signature="e#32420#32721#0" />
+            <element signature="e#32794#33097#0" />
+            <element signature="e#33172#33479#0" />
+            <element signature="e#33555#33864#0" />
+            <element signature="e#33944#34016#0" />
+            <element signature="e#34260#34630#0" />
+            <element signature="e#34693#35056#0" />
+            <element signature="e#35117#35468#0" />
+            <element signature="e#35528#35871#0" />
+            <element signature="e#35931#36245#0" />
+            <element signature="e#36303#36647#0" />
+            <element signature="e#36707#37046#0" />
+            <element signature="e#37105#37418#0" />
+            <element signature="e#37476#37838#0" />
+            <element signature="e#37893#38247#0" />
+            <element signature="e#38307#38755#0" />
+            <element signature="e#38810#39164#0" />
+            <element signature="e#39224#39584#0" />
+            <element signature="e#39647#40003#0" />
+            <element signature="e#40064#40386#0" />
+            <element signature="e#40437#40772#0" />
+            <element signature="e#40840#41196#0" />
+            <element signature="e#41255#41628#0" />
+            <element signature="e#41682#42030#0" />
+            <element signature="e#42089#42472#0" />
+            <element signature="e#42530#42876#0" />
+            <element signature="e#43376#43760#0" />
+            <element signature="e#43822#44203#0" />
+            <element signature="e#44295#44578#0" />
+            <element signature="e#44680#44943#0" />
+            <element signature="e#45033#45300#0" />
+            <element signature="e#45387#45643#0" />
+            <element signature="e#45728#48130#0" />
+            <element signature="e#48280#48552#0" />
+            <element signature="e#48595#48844#0" />
+            <element signature="e#48895#49136#0" />
+            <element signature="e#49179#54993#0" />
+            <element signature="e#55249#55496#0" />
+            <element signature="e#55538#55787#0" />
+            <element signature="e#55824#56076#0" />
+            <element signature="e#56116#56365#0" />
+            <element signature="e#56402#56651#0" />
+            <element signature="e#56692#56935#0" />
+            <element signature="e#56976#57238#0" />
+            <element signature="e#57274#57532#0" />
+            <element signature="e#57569#57853#0" />
+            <element signature="e#57898#60666#0" />
+            <element signature="e#60820#61395#0" />
+            <element signature="e#61449#61914#0" />
+            <element signature="e#61969#62583#0" />
+            <element signature="e#62640#68290#0" />
+            <element signature="e#68464#68721#0" />
+            <element signature="e#68754#69013#0" />
+            <element signature="e#69047#69290#0" />
+            <element signature="e#69331#71319#0" />
+            <element signature="e#71485#73673#0" />
+            <element signature="e#73829#76708#0" />
+            <element signature="e#76879#77209#0" />
+            <element signature="e#77247#77554#0" />
+            <element signature="e#77592#77895#0" />
+            <element signature="e#77933#78218#0" />
+            <element signature="e#78253#78527#0" />
+            <element signature="e#78570#78840#0" />
+            <element signature="e#78875#81413#0" />
+            <element signature="e#81549#81827#0" />
+            <element signature="e#81870#82137#0" />
+            <element signature="e#82180#82443#0" />
+            <element signature="e#82486#84121#0" />
+            <element signature="e#84251#88577#0" />
+            <element signature="e#88709#89350#0" />
+            <element signature="e#89393#90034#0" />
+            <element signature="e#90073#90598#0" />
+            <element signature="e#90637#91118#0" />
+            <element signature="e#91157#91676#0" />
+            <element signature="e#91718#92048#0" />
+            <element signature="e#92097#92427#0" />
+            <element signature="e#92477#92807#0" />
+            <element signature="e#92852#97258#0" />
+            <element signature="e#97390#102508#0" />
+            <element signature="e#102794#106374#0" />
+            <element signature="e#106429#106698#0" />
+            <element signature="e#106729#106994#0" />
+            <element signature="e#107026#107315#0" />
+            <element signature="e#107354#107631#0" />
+            <element signature="e#107663#107991#0" />
+            <element signature="e#108023#108357#0" />
+            <element signature="e#108390#108665#0" />
+            <element signature="e#108700#112223#0" />
+            <element signature="e#112394#112705#0" />
+            <element signature="e#112746#112983#0" />
+            <element signature="e#113024#113258#0" />
+            <element signature="e#113299#113625#0" />
+            <element signature="e#113737#114067#0" />
+            <element signature="e#114138#114596#0" />
+            <element signature="e#114699#115303#0" />
+            <element signature="e#115373#115908#0" />
+            <element signature="e#115978#116513#0" />
+            <element signature="e#116583#117143#0" />
+            <element signature="e#117216#117776#0" />
+            <element signature="e#117849#118411#0" />
+            <element signature="e#118484#119082#0" />
+            <element signature="e#119150#119903#0" />
+            <element signature="e#119971#120580#0" />
+            <element signature="e#120648#120930#0" />
+            <element signature="e#120992#123750#0" />
+            <element signature="e#123904#124142#0" />
+            <element signature="e#124263#124530#0" />
+            <element signature="e#124590#124899#0" />
+            <element signature="e#124964#125439#0" />
+            <element signature="e#125508#126024#0" />
+            <element signature="e#126090#128224#0" />
+            <element signature="e#128369#130114#0" />
+            <element signature="e#130262#130516#0" />
+            <element signature="e#130554#130810#0" />
+            <element signature="e#130849#131122#0" />
+            <element signature="e#131168#135862#0" />
+            <element signature="e#136044#136507#0" />
+            <element signature="e#136592#136964#0" />
+            <element signature="e#137025#137251#0" />
+            <element signature="e#137312#137534#0" />
+            <element signature="e#137595#137808#0" />
+            <element signature="e#137865#138078#0" />
+            <element signature="e#138135#138463#0" />
+            <element signature="e#138496#138777#0" />
+            <element signature="e#138809#139252#0" />
+            <element signature="e#139295#139640#0" />
+            <element signature="e#139693#140030#0" />
+            <element signature="e#140090#140324#0" />
+            <element signature="e#140468#141364#0" />
+            <element signature="e#141428#142462#0" />
+            <element signature="e#142552#142861#0" />
+            <element signature="e#142941#143625#0" />
+            <element signature="e#143706#144800#0" />
+            <element signature="e#144887#147405#0" />
+            <element signature="e#147552#152937#0" />
+            <element signature="e#153192#153451#0" />
+            <element signature="e#153492#153770#0" />
+            <element signature="e#153806#154086#0" />
+            <element signature="e#154125#154403#0" />
+            <element signature="e#154439#154716#0" />
+            <element signature="e#154753#155040#0" />
+            <element signature="e#155081#155360#0" />
+            <element signature="e#155395#155670#0" />
+            <element signature="e#155706#156007#0" />
+            <element signature="e#156050#156348#0" />
+            <element signature="e#156391#156655#0" />
+            <element signature="e#156698#156954#0" />
+            <element signature="e#157069#160941#0" />
+            <element signature="e#161121#161655#0" />
+            <element signature="e#161796#162214#0" />
+            <element signature="e#161796#162300#0" />
+            <element signature="e#162306#162642#0" />
+            <element signature="e#162306#162732#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/sql/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="316" column="14" lean-forward="true" selection-start-line="316" selection-start-column="14" selection-end-line="316" selection-end-column="14" />
+          <folding>
+            <element signature="docComment;class#Connection#0" />
+            <element signature="e#3076#3946#0" />
+            <element signature="e#4005#5675#0" />
+            <element signature="e#5761#7248#0" />
+            <element signature="e#7321#7891#0" />
+            <element signature="e#7951#9767#0" />
+            <element signature="e#9837#10202#0" />
+            <element signature="e#10257#10845#0" />
+            <element signature="e#10890#11451#0" />
+            <element signature="e#11498#12214#0" />
+            <element signature="e#12258#13141#0" />
+            <element signature="e#13191#13263#0" />
+            <element signature="e#13295#13907#0" />
+            <element signature="e#13969#14472#0" />
+            <element signature="e#14538#14909#0" />
+            <element signature="e#14961#15958#0" />
+            <element signature="e#16021#16338#0" />
+            <element signature="e#16389#16466#0" />
+            <element signature="e#16514#16910#0" />
+            <element signature="e#16958#17193#0" />
+            <element signature="e#17241#17718#0" />
+            <element signature="e#17766#18336#0" />
+            <element signature="e#18384#19599#0" />
+            <element signature="e#19670#20385#0" />
+            <element signature="e#20446#21315#0" />
+            <element signature="e#21371#21784#0" />
+            <element signature="e#21908#23392#0" />
+            <element signature="e#23502#25206#0" />
+            <element signature="e#25376#27059#0" />
+            <element signature="e#27211#28293#0" />
+            <element signature="e#28368#29558#0" />
+            <element signature="e#29713#30681#0" />
+            <element signature="e#30749#31303#0" />
+            <element signature="e#31355#32163#0" />
+            <element signature="e#32219#33122#0" />
+            <element signature="e#33189#34005#0" />
+            <element signature="e#34071#34789#0" />
+            <element signature="e#34863#36673#0" />
+            <element signature="e#36831#38908#0" />
+            <element signature="e#39104#41137#0" />
+            <element signature="e#41350#43754#0" />
+            <element signature="e#43863#46323#0" />
+            <element signature="e#46430#48876#0" />
+            <element signature="e#48984#49740#0" />
+            <element signature="e#49789#50513#0" />
+            <element signature="e#50562#51323#0" />
+            <element signature="e#51374#52119#0" />
+            <element signature="e#52176#53513#0" />
+            <element signature="e#53582#56932#0" />
+            <element signature="e#57044#58673#0" />
+            <element signature="e#58781#59917#0" />
+            <element signature="e#60007#60773#0" />
+            <element signature="e#60848#62479#0" />
+            <element signature="e#62559#63305#0" />
+            <element signature="e#63461#64276#0" />
+            <element signature="e#64337#64669#0" />
+            <element signature="e#64719#66545#0" />
+            <element signature="e#66606#71460#0" />
+            <element signature="e#71552#72143#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/itstep/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#1220#1221#0" expanded="true" />
+            <element signature="e#1276#1277#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3873e46f-42b5-4722-ad4a-30ff58af6235/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/itstep/dao/GenericDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="e#564#569#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3873e46f-42b5-4722-ad4a-30ff58af6235/schema/shop/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/itstep/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1162#1163#0" expanded="true" />
+            <element signature="e#1235#1236#0" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/itstep/HomeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
