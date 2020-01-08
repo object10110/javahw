@@ -1,0 +1,42 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <context-param>
+    <param-name>cookieTokenName</param-name>
+    <param-value>token</param-value>
+  </context-param>
+
+  <context-param>
+    <param-name>db.username</param-name>
+    <param-value>root</param-value>
+  </context-param>
+
+  <context-param>
+    <param-name>db.password</param-name>
+    <param-value/>
+  </context-param>
+
+  <context-param>
+    <param-name>db.url</param-name>
+    <param-value>jdbc:mysql://localhost:3306/household_store?serverTimezone=Europe/Kiev&amp;characterEncoding=utf8</param-value>
+  </context-param>
+
+  <servlet>
+    <servlet-name>home</servlet-name>
+    <servlet-class>org.samarskii.HomeServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>home</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>default</servlet-name>
+    <url-pattern>/resources/*</url-pattern>
+  </servlet-mapping>
+</web-app>

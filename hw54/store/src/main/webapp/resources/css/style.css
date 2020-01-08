@@ -1,0 +1,85 @@
+* {
+    font-family: cursive;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+}
+.panel-login{
+    display:flex;
+    justify-content: center;
+}
+.panel-login>form{
+    width: 300px;
+}
+.submit-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.panel-login>form>div{
+    margin: 4px;
+}
+.panel{
+    display: flex;
+    justify-content: center;
+}
+.products{
+    width: 500px;
+}
+.product{
+    border: 2px solid #a7a7a7;
+    padding: 4px;
+    margin: 4px;
+}
+.product-name{
+    font-size: 24px;
+}
+
+/* unvisited link */
+a:link {
+    color: #007bff;
+}
+
+/* visited link */
+a:visited {
+    color: #007bff;
+}
+
+/* mouse over link */
+a:hover {
+    color: #1500b9;
+}
+
+/* selected link */
+a:active {
+    color: #007bff;
+}
+
+.amount-in-basket{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    margin: 4px;
+    font-size: 24px;
+}
+.buy-all{
+    border: none;
+    text-decoration: none;
+    margin: 4px;
+    font-size: 24px;
+    color: #007bff;
+    background: white;
+}
+.buy-all:hover{
+    color: #1500b9;
+    cursor: pointer;
+}
+.create-account{
+    font-size: 18px;
+}

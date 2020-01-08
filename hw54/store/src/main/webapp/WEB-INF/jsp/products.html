@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link href="../../resources/css/style.css" rel="stylesheet"/>
+</head>
+<html>
+<head>
+    <title>Products</title>
+</head>
+<body>
+<div class="container">
+    <div class="panel">
+        <div class="products">
+            <h1>PRODUCTS</h1>
+            <a class="basket" href="">BASKET</a><label class="amount-in-basket">(5)</label>
+            <form class="product" action="localhost:8080/store_war/products" method="post">
+                <input type="text" hidden value="1" name="product-id">
+                <label>amount: </label><label>5</label><br/>
+                <label class="product-name">Product name</label>
+                <input class="product-buy" type="submit" value="buy">
+            </form>
+            <form class="product" action="localhost:8080/store_war/products" method="post">
+                <input type="text" hidden value="1" name="product-id">
+                <label>amount: </label><label>5</label><br/>
+                <label class="product-name">Product name</label>
+                <input class="product-buy" type="submit" value="buy">
+            </form>
+            <form class="product" action="localhost:8080/store_war/products" method="post">
+                <input type="text" hidden value="1" name="product-id">
+                <label>amount: </label><label>5</label><br/>
+                <label class="product-name">Product name</label>
+                <input class="product-buy" type="submit" value="buy">
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
