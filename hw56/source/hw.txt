@@ -1,0 +1,10 @@
+video: https://youtu.be/AJko1IbOXtQ
+
+0. Импортировать базу данных из файла db.sql
+1. Из таблиц locations и countries выбрать адреса (location_id, street_address, city, state_province, country_name) всех подразделений
+2. Из таблиц employees и departments выбрать имена сотрудников (first_name, last name) и названия подразделений (department_name) в которых они работают.
+3. Из таблиц locations, employees и departments выбрать имена (first_name, last_name), должность (job_id), номер подразделения (department_id), 
+   и названия подразделения для сотрудников из города London
+4. Из таблиц employees, departments и locations выбрать названия подразделений (department_name), имя сотрудника (first_name), и город (city)
+
+Для каждого запроса сделать представление
