@@ -1,0 +1,27 @@
+.container {
+    max-width: 1280px;
+    margin: auto;
+    background: lightgray;
+}
+
+.create {
+    border: 2px solid grey;
+}
+
+.change {
+    border: 2px solid grey;
+}
+.params{
+    display: flex;
+}
+
+.param {
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    align-items: center;
+}
+
+.change-item{
+    display: flex;
+}

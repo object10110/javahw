@@ -1,0 +1,69 @@
+/*1. Создать процедуру, которая принимает два аргумента - начальную запись
+   и конечную запись и выводит через print все записи в заданном диапазоне
+   из таблиц Directors (FirstName, LastName), из таблицы Movies(Title, Rating)
+   и из таблицы Actors (FirstName, LastName)*/
+
+delimiter $$
+
+drop procedure if exists movies.print_from_to$$
+
+create procedure movies.print_from_to (start_index int, end_index int)
+begin
+    declare `@amount` int;
+    set `@amount` = end_index-start_index;
+
+    select d.firstName DirectorFN, d.lastName DirectorLN
+    from movies.director d
+    limit `@amount` offset start_index;
+
+    select m.Title, m.Rating
+    from movies.movie m
+    limit `@amount` offset start_index;
+
+    select a.firstName ActorFN, a.lastName ActorLN
+    from movies.actor a
+    limit `@amount` offset start_index;
+/*    TODO: print*/
+end$$
+
+delimiter ;
+
+call movies.print_from_to(0,5);
+
+/*2. Создать процедуру, которая принимает два аргумента - текущее имя жанра и
+   новое имя жанра и обновляет запись в таблице Genres */
+
+delimiter $$
+
+drop procedure if exists movies.change_genre$$
+
+create procedure movies.change_genre (current_genre text, new_genre text)
+begin
+    update movies.genre g
+    set g.name = new_genre
+    where g.name LIKE(current_genre);
+end$$
+
+delimiter ;
+
+call movies.change_genre("genre1", "newGenre1");
+
+/*3. Создать процедуру, которая удаляет всех продюсеров из таблицы Directors, на
+   которых нет ни одной ссылки из таблицы Movies. */
+
+delimiter $$
+
+drop procedure if exists movies.delete_director_without_films$$
+
+create procedure movies.delete_director_without_films ()
+begin
+
+    delete from movies.director
+    where id not in (select distinct d.id from movies.director d
+                       join movies.movie m on d.id = m.directorId);
+
+end$$
+
+delimiter ;
+
+call movies.delete_director_without_films ();
