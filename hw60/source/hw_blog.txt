@@ -1,0 +1,7 @@
+video: https://youtu.be/AJ5hpMULPBw
+
+Домашнее задание
+
+Создать заготовку для блога. Взять шаблоны главной страницы https://github.com/BlackrockDigital/startbootstrap-blog-home
+и отдельного поста https://github.com/BlackrockDigital/startbootstrap-blog-post
+
