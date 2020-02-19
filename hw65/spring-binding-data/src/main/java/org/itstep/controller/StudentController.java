@@ -51,7 +51,7 @@ public class StudentController {
         if (student != null) {
             repository.delete(student);
         }
-        return "redirect:/students/index";
+        return "redirect:/students";
     }
 
     @GetMapping("/update/{id}")
@@ -61,7 +61,7 @@ public class StudentController {
             model.addAttribute("student", student);
             return "/students/update";
         }
-        return "redirect:/students/index";
+        return "redirect:/students";
     }
 
     @PostMapping("/update/{id}")

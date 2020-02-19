@@ -26,7 +26,7 @@
 
     <div>
         <label for="group">Group: </label>
-        <input name="group" value="${student.group}" id="group" required/>
+        <input name="groupName" value="${student.group.name}" id="group" required/>
     </div>
 
     <div>
