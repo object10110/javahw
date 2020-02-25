@@ -157,6 +157,8 @@
       <workItem from="1581941848812" duration="4169000" />
       <workItem from="1582022131320" duration="99000" />
       <workItem from="1582096659581" duration="13653000" />
+      <workItem from="1582535385424" duration="481000" />
+      <workItem from="1582552744948" duration="750000" />
     </task>
     <servers />
   </component>
@@ -224,10 +226,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="797" y="362" width="326" height="234" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1920.1040@0.0.1920.1040" timestamp="1582106901638" />
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1581941852175">
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1582552748542">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581941852175" />
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582552748542" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1581533125682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
