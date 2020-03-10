@@ -1,1 +1,1 @@
-https://github.com/object10110/javahw/tree/master/hw67-68/spring-binding-data
+https://github.com/object10110/javahw/tree/master/hw69/spring-binding-data

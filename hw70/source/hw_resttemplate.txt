@@ -1,0 +1,15 @@
+video: https://youtu.be/XjCXI82DoEI
+
+ƒомашнее задание.
+
+¬ам необходимо создать приложение на базе spring framework mvc 
+в котором используетс€ сторонний REST сервис https://reqres.in/
+
+ѕри запуске приложени€ на главную страницу должны выгружатьс€ данные пользователей полученные
+по адресу https://reqres.in/api/users?per_page=100
+
+ƒл€ создани€ классов на базе json можно воспользоватс€ ресурсом http://www.jsonschema2pojo.org
+
+ќтображать данные: email, first_name, last_name, avatar
+
+ƒл€ взаимодействи€ с сервисом использовать RestTemplate

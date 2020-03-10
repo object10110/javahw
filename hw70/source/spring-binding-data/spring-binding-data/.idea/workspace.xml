@@ -33,13 +33,10 @@
         <option value="Interface" />
         <option value="Jsp File" />
         <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="HTTP Request" />
+        <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -49,7 +46,6 @@
     </option>
   </component>
   <component name="ProjectId" id="1XiXT4XHiTbEkH4rvk2blnZaCqt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -62,10 +58,10 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -222,18 +218,72 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.students#1">
+  <component name="RunManager" selected="JUnit.StudentRestControllerTest.removeFirstStudent">
     <configuration name="students#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/src/test/resources/students.http" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="students#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/src/test/resources/students.http" index="2" runType="Run single request">
-      <method v="2" />
+    <configuration name="StudentRestControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-binding-data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.itstep.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.itstep.api" />
+      <option name="MAIN_CLASS_NAME" value="org.itstep.api.StudentRestControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="students#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/src/test/resources/students.http" index="3" runType="Run single request">
-      <method v="2" />
+    <configuration name="StudentRestControllerTest.getAllStudents2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-binding-data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.itstep.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.itstep.api" />
+      <option name="MAIN_CLASS_NAME" value="org.itstep.api.StudentRestControllerTest" />
+      <option name="METHOD_NAME" value="getAllStudents2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="students#4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/src/test/resources/students.http" index="4" runType="Run single request">
-      <method v="2" />
+    <configuration name="StudentRestControllerTest.getOneStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-binding-data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.itstep.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.itstep.api" />
+      <option name="MAIN_CLASS_NAME" value="org.itstep.api.StudentRestControllerTest" />
+      <option name="METHOD_NAME" value="getOneStudent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentRestControllerTest.removeFirstStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-binding-data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.itstep.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.itstep.api" />
+      <option name="MAIN_CLASS_NAME" value="org.itstep.api.StudentRestControllerTest" />
+      <option name="METHOD_NAME" value="removeFirstStudent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="spring-binding-data [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
@@ -262,10 +312,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudentRestControllerTest.removeFirstStudent" />
+        <item itemvalue="JUnit.StudentRestControllerTest.getOneStudent" />
+        <item itemvalue="JUnit.StudentRestControllerTest.getAllStudents2" />
+        <item itemvalue="JUnit.StudentRestControllerTest" />
         <item itemvalue="HTTP Request.students#1" />
-        <item itemvalue="HTTP Request.students#2" />
-        <item itemvalue="HTTP Request.students#4" />
-        <item itemvalue="HTTP Request.students#3" />
       </list>
     </recent_temporary>
   </component>
@@ -301,8 +352,10 @@
       <workItem from="1582562112817" duration="7732000" />
       <workItem from="1582572964394" duration="367000" />
       <workItem from="1582735121593" duration="9208000" />
-      <workItem from="1582962300583" duration="7316000" />
-      <workItem from="1583824377145" duration="4630000" />
+      <workItem from="1583168750742" duration="634000" />
+      <workItem from="1583172661306" duration="4122000" />
+      <workItem from="1583825169176" duration="229000" />
+      <workItem from="1583825423141" duration="1353000" />
     </task>
     <servers />
   </component>
@@ -310,18 +363,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Project_Structure" timestamp="1582962332898">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1582962332898" />
     <state x="552" y="179" key="#SQL_Dialects" timestamp="1581961760088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1581961760087" />
-    <state x="552" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582140123577">
+    <state x="552" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583172777921">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582140123577" />
+    <state x="552" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583172777921" />
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1583176100792">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583176100792" />
     <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1582568002138">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -330,26 +383,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="413" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1582571614710" />
-    <state x="740" y="247" key="FileChooserDialogImpl" timestamp="1583824798426">
+    <state x="740" y="247" key="FileChooserDialogImpl" timestamp="1582741439971">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="247" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583824798426" />
-    <state width="1877" height="294" key="GridCell.Tab.0.bottom" timestamp="1582745425743">
+    <state x="740" y="247" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582741439971" />
+    <state width="1876" height="293" key="GridCell.Tab.0.bottom" timestamp="1583176495570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582745425743" />
-    <state width="1877" height="294" key="GridCell.Tab.0.center" timestamp="1582745425743">
+    <state width="1876" height="293" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583176495570" />
+    <state width="1876" height="293" key="GridCell.Tab.0.center" timestamp="1583176495570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582745425743" />
-    <state width="1877" height="294" key="GridCell.Tab.0.left" timestamp="1582745425743">
+    <state width="1876" height="293" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583176495570" />
+    <state width="1876" height="293" key="GridCell.Tab.0.left" timestamp="1583176495569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582745425743" />
-    <state width="1877" height="294" key="GridCell.Tab.0.right" timestamp="1582745425743">
+    <state width="1876" height="293" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583176495569" />
+    <state width="1876" height="293" key="GridCell.Tab.0.right" timestamp="1583176495570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582745425743" />
+    <state width="1876" height="293" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583176495570" />
     <state width="1877" height="432" key="GridCell.Tab.1.bottom" timestamp="1582572142601">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -370,21 +423,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1582140145335" />
-    <state x="440" y="95" key="SettingsEditor" timestamp="1581533171793">
+    <state x="440" y="95" key="SettingsEditor" timestamp="1583173242007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581533171793" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1583824379009">
+    <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583173242007" />
+    <state x="661" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1583172663007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583824379009" />
-    <state x="342" y="215" key="new project wizard" timestamp="1583824836165">
+    <state x="661" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583172663007" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1583172781185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="342" y="215" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1583824836165" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1581533125682">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581533125682" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583172781185" />
   </component>
 </project>
