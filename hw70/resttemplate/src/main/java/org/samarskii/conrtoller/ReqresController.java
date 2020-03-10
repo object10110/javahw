@@ -12,7 +12,7 @@ import javax.annotation.PostConstruct;
 import java.util.Arrays;
 
 @Controller
-@RequestMapping("/users")
+@RequestMapping("/")
 public class ReqresController {
     RestTemplate restTemplate;
     public static final String BASE_URL = "https://reqres.in/api/users?per_page=100";
