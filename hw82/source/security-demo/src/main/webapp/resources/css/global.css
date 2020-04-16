@@ -1,0 +1,23 @@
+h3 {
+    margin: 0 !important;
+    padding: 0 15px !important;
+}
+
+.datepicker {
+    z-index: 1151 !important;
+}
+
+.glyphicon {
+    margin: 3px !important;
+}
+
+.list-group-item span {
+    padding: 0 5px;
+}
+
+.modal.in .modal-dialog {
+    -webkit-transform: translate(0, calc(50vh - 50%));
+    -ms-transform: translate(0, 50vh) translate(0, -50%);
+    -o-transform: translate(0, calc(50vh - 50%));
+    transform: translate(0, 50vh) translate(0, -50%);
+}
