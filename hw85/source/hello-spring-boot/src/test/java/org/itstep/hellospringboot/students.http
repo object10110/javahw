@@ -1,0 +1,14 @@
+POST http://localhost:8080/api/students
+Authorization: Basic admin admin
+Content-Type: application/json
+
+{
+  "firstName": "Вася",
+  "lastName": "Пупкин"
+}
+
+###
+GET http://localhost:8080/api/students/
+Authorization: Basic admin admin
+
+##
